@@ -9,4 +9,4 @@
 
 <p>Ici je partage avec vous toutes les bases que j'ai acquises dans le développement de site web et d'application web </p>
 
-<a>Lien du blog : https://jordanlaurent.github.io/Blog_Apprentie_developpeur-web/ </a>
+<a>Lien du blog : https://jordanlaurent.github.io/Blog-Apprentie-d-veloppeur-web/ </a>
