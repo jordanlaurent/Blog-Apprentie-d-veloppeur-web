@@ -1,11 +1,14 @@
 {
-  "name": "iosproject",
+  "name": "blog_apprentie_developpeur-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Blog personnel sur le codage web<h1>",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "test": "sass --watch ./sass/main.scss:./css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }

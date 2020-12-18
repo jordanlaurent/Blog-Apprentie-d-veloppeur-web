@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/ICONE_laurent_jordan_dev_web.png" />
     <link rel="icon" href="images/ICONE_laurent_jordan_dev_web.png" />
+    <link rel="preload stylesheet" type="text/css" href="sass/main.css">
     <title>Laurent Jordan - tutoriel</title>
     <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <script src="https://kit.fontawesome.com/9d71f1e47f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -16,24 +18,27 @@
 </head>
 <body>
     <!--Barre de navigation-->
-    <header class="blog-header py-3">
+    <header class="blog-header py-3 bg-dark">
       <div class=" text-center">
-      <a class="blog-header-logo text-dark" href="index.html">
-          <h1> < Apprentie Developpeur Web /> </h1></a>
+      <a class="blog-header-logo" href="index.html">
+        <img src="../images/Web-Facile-logo.png" class="tracking-in-expand img-fluid" alt="loggo web facile laurent jordan"> </img></a>
     </div>   
 </header>
-    <div class="nav-scroller py-1 mb-2">
+    <div class="nav-scroller py-1 pb-2 bg-warning">
       <nav class="nav d-flex justify-content-center">
-          <a class="h5 text-dark bounce-top p-2" href="pages/logiciel_creations_site_web.html">Logiciel création site web <span class="sr-only">(current)</span></a>
-          <a class=" h5 text-dark bounce-top p-2" href="index.html">Tutoriel </a>
-          <a class=" h5 text-dark bounce-top p-2" href="pages/mon_parcours.html">Mon parcours</a>
+          <a class="h5 text-dark  p-2 navfont" href="pages/logiciel_creations_site_web.html">Logiciel création site web <span class="sr-only">(current)</span></a>
+          <a class=" h5 text-dark p-2 navfont" href="index.html">Tutoriel </a>
+          <a class=" h5 text-dark p-2 navfont" href="pages/mon_parcours.html">Mon parcours</a>
       </nav> 
    </div>
 
+   <img src="images/banniere-tuto.jpg" class="img-fluid mw-100" alt="Responsive image">
   
-  <div class="card-group ml-5 mr-5 mb-4">
-    <div class="card ">
-      <img class="card-img-top img-thumbnail" src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" href="/jekyll/update/2020/12/18/welcome-to-jekyll.html" alt="Card image cap">
+  <div id="BlocBlog">
+    
+   <div class=" ml-5 mr-5 mb-4 ">
+    <div class="card ml-5 mr-5">
+      <img class="card-img-top img-thumbnail h-50" src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" href="/jekyll/update/2020/12/18/welcome-to-jekyll.html" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title"  href="/jekyll/update/2020/12/18/welcome-to-jekyll.html">Welcome to Jekyll!</h5>
         <p class="card-text"></p>
@@ -43,11 +48,11 @@
         <small class="text-muted">  Ecrit le 18/12/2020</small> 
       </div>
     </div>
-  </div>
-  
-  <div class="card-group ml-5 mr-5 mb-4">
-    <div class="card ">
-      <img class="card-img-top img-thumbnail" src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" href="/2020/12/18/Bienvenue-sur-mon-blog.html" alt="Card image cap">
+    </div>
+    
+   <div class=" ml-5 mr-5 mb-4 ">
+    <div class="card ml-5 mr-5">
+      <img class="card-img-top img-thumbnail h-50" src="https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons.png" href="/2020/12/18/Bienvenue-sur-mon-blog.html" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title"  href="/2020/12/18/Bienvenue-sur-mon-blog.html">Bienvenue sur mon blog !</h5>
         <p class="card-text"></p>
@@ -57,11 +62,11 @@
         <small class="text-muted">  Ecrit le 18/12/2020</small> 
       </div>
     </div>
-  </div>
-  
-  <div class="card-group ml-5 mr-5 mb-4">
-    <div class="card ">
-      <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/768px-Visual_Studio_Code_1.18_icon.svg.png" href="/2012/09/12/how-to-write-a-blog.html" alt="Card image cap">
+    </div>
+    
+   <div class=" ml-5 mr-5 mb-4 ">
+    <div class="card ml-5 mr-5">
+      <img class="card-img-top img-thumbnail h-50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/768px-Visual_Studio_Code_1.18_icon.svg.png" href="/2012/09/12/how-to-write-a-blog.html" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title"  href="/2012/09/12/how-to-write-a-blog.html">testo Jekyll!</h5>
         <p class="card-text">Ceci est un test de description d'article</p>
@@ -71,7 +76,15 @@
         <small class="text-muted"> Ecrit le 18/12/2020</small> 
       </div>
     </div>
+    </div>
+    
   </div>
-  
-
+ 
+  <footer>
+    <nav class="navbar mt-5 navbar-expand-sm navbar-dark bg-dark">
+        <p class="col-sm text-light text-left">Laurent Jordan - Tout droites réservées @2020</p>
+        <p class="col-sm text-light text-right">Créé avec Bootstrap et jerry sur visual studio code</p>
+        <a href="https://github.com/jordanlaurent" target="_blank" ><i class="fab fa-github fa-3x text-white"></i></a>
+      </nav>
+</footer>
 </body>
